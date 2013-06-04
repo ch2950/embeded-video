@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0043)http://chadly.net/demos/video-lightbox.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>LightBox YouTube Demo</title>
+
+    <script type="text/javascript" src="scripts/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.pngFix.pack.js"></script>
+    <script type="text/javascript" src="scripts/jquery.fancybox-1.0.0.js"></script>
+    <script type="text/javascript" src="scripts/swfobject.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/fancy.css">
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("a[@rel*=fancyvideo]").fancybox({
+                overlayShow: true,
+                frameWidth:640,
+                frameHeight:360
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div>
+	<h1>video demo</h1>
+	<p><a href="http://www.youtube.com/watch?v=xBzPioph8CI" rel="fancyvideo">play video(replace it with a picture)</a></p>
+    </div>
+
+<div id="fancy_wrap"><div id="fancy_loading"><div></div></div><div id="fancy_outer"><div id="fancy_inner"><div id="fancy_bg"><div class="fancy_bg fancy_bg_n"></div><div class="fancy_bg fancy_bg_ne"></div><div class="fancy_bg fancy_bg_e"></div><div class="fancy_bg fancy_bg_se"></div><div class="fancy_bg fancy_bg_s"></div><div class="fancy_bg fancy_bg_sw"></div><div class="fancy_bg fancy_bg_w"></div><div class="fancy_bg fancy_bg_nw"></div></div><div id="fancy_nav"></div><div id="fancy_close"></div><div id="fancy_content"></div><div id="fancy_title"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td id="fancy_title_left"></td><td id="fancy_title_main"><div></div></td><td id="fancy_title_right"></td></tr></tbody></table></div></div></div></div></body></html>
